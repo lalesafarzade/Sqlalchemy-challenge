@@ -1,14 +1,5 @@
-# SQLAlchemy Homework - Surfs Up!
+# SQLAlchemy - Surfs Up!
 
-### Before You Begin
-
-1. Create a new repository for this project called `sqlalchemy-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Add your Jupyter notebook and `app.py` to this folder. These will be the main scripts to run for analysis.
-
-4. Push the above changes to GitHub or GitLab.
 
 ![surfs-up.png](Images/surfs-up.png)
 
@@ -138,8 +129,14 @@ Now that you have completed your initial analysis, design a Flask API based on t
   * Drop the date column
 
 * Identify the average temperature in June at all stations across all available years in the dataset. Do the same for December temperature.
+![june_box](Images/june_box.png)
+
+![dec_box](Images/dec_box.png)
 
 * Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
+![june_dec_box](Images/june_dec_box.png)
+
+![Distribution_june_dec](Images/Distribution_june_dec.png)
 
 ### Temperature Analysis II
 
@@ -184,7 +181,7 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
 * Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
 
-  ![daily-normals](Images/daily-normals.png)
+  ![daily-normals](Images/daily_normals.png)
 
 * Close out your session.
 
