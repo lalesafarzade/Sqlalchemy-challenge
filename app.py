@@ -27,6 +27,11 @@ app = Flask(__name__)
 def welcome():
     
     return (
+        f'<br/>'
+        f'<br/>'
+        f'<br/>'
+        f'<br/>'
+        f'<br/>'
         f'<h1 style="text-align:center">Welcome to the Surfs_up API!<br/></h1>'
         f'<h2 style="text-align:center">Available Routes(Clickable icons):<br/></h2>'
         f'<h3 style="text-align:center"><a href="/api/v1.0/precipitation">👉</a>/api/v1.0/precipitation<br/></h3>'
