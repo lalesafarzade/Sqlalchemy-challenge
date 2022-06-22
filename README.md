@@ -2,7 +2,6 @@
 
 ## Click to explor The API
 
-[API! 👉 https://trivilala.herokuapp.com/](https://trivilala.herokuapp.com/)
 
 - - -
 
